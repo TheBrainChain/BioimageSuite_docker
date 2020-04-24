@@ -6,4 +6,3 @@ RUN curl 'https://uc7163afdde0b7533e33efd88f3e.dl.dropboxusercontent.com/cd/0/ge
     && echo Y | ./bisInstall.sh 
 
 WORKDIR /bioimagesuite35
-CMD ["/bin/bash","./start_bioimagesuite"]
